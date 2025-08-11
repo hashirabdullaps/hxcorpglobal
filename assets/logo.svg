@@ -1,0 +1,42 @@
+<svg width="240" height="90" viewBox="0 0 240 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HXCorp Global logo">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A2342" stop-opacity="1" />
+      <stop offset="100%" stop-color="#2C5B9A" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: stylized polygon -->
+  <path 
+    d="M20 20 L60 20 L40 50 L80 50 L60 80 L20 80 L40 50 L0 50 L20 20Z" 
+    fill="url(#grad1)" 
+    filter="drop-shadow(0 2px 2px rgba(0,0,0,0.1))"
+  />
+
+  <!-- Brand name -->
+  <text 
+    x="150" y="50" 
+    font-family="Poppins, sans-serif" 
+    font-size="32" 
+    font-weight="700" 
+    fill="#0A2342" 
+    text-anchor="middle" 
+    dominant-baseline="middle"
+  >
+    HXCorp
+  </text>
+
+  <!-- Subtext -->
+  <text 
+    x="131" y="75" 
+    font-family="Poppins, sans-serif" 
+    font-size="18" 
+    font-weight="400" 
+    fill="#2C5B9A" 
+    text-anchor="middle" 
+    dominant-baseline="middle" 
+    letter-spacing="0.08em"
+  >
+    GLOBAL
+  </text>
+</svg>
